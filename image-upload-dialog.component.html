@@ -1,0 +1,11 @@
+<div class="dialog-header">Add Image</div>
+<div>
+    <mat-form-field class="example-full-width">
+        <input   matInput  placeholder="Enter Title"  #inputTitle  >
+      </mat-form-field>
+  <input type="file" style="border-radius:13px;margin:4px" #filePicker (change)="onImagePicked($event)">
+  <div class="image-preview" *ngIf="imagePreview !== '' && imagePreview">
+      <img [src]="imagePreview" alt="Upload Image">
+    </div>
+  <button mat-button (click)="onSubmit()">Submit</button>
+</div>

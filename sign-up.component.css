@@ -1,0 +1,91 @@
+
+button.btn-submit{
+  background-color: #38547b;
+  color: #fff;
+  width: 100%;
+}
+
+
+input.ng-invalid.ng-dirty{
+  border-bottom-color : white !important;
+  box-shadow: 0 1px 0 0 white !important;
+}
+
+
+
+
+
+body{
+  margin:0;
+  padding:0;
+  background-size: cover;
+  font-family: sans-serif;
+}
+.loginbox{
+  width:450px;
+  height: 528px;
+  background: #a5442af5;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+.avatar{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -31px;
+  left: 173px;
+}
+h1{
+  margin:0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+
+}
+.loginbox p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.loginbox button{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #fb2525;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  width: 391px;
+}
+.loginbox button:hover{
+  cursor: pointer;
+  bacckground:grey;
+  color: #000;
+}
+
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+/* .example-full-width .mat-input-element::placeholder {
+  color: #fff;
+}
+.example-full-width .mat-input-element {
+  color: #fff;
+} */
+::ng-deep .mat-form-field-placeholder{
+  color: #fff;
+}
+
